@@ -8,42 +8,59 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>The gamer</title>
+    <title>University Sample</title>
 </head>
-<body>
-  <header style="position: relative;">
+ 
 
-    <div class="w3-top" class="header" id="home">
-      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" style="background-color: #000015;" >
-        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  <header style="position: "relative"; align="center"">
+<button type="button"> <img src="https://seupload.com/cache/plugins/filepreviewer/63841/a11bb98f92b9a1c6fff3ef835df9d8f42a135cd5b2e98c02faf1c0eff2a9f826/1100x800_cropped.jpg" height ="125" width="400" align="center" /> </button>
+
+      <div class="w3-bar  w3-card w3-left-align w3-large heeder-large-screen" >
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large " href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu" ><i class="fa fa-bars"></i></a>
           <body>
-<button type="button"> <img src="https://media.istockphoto.com/vectors/color-logo-of-the-school-vector-id1150645589?k=20&m=1150645589&s=612x612&w=0&h=2xbp-Zrro_3e0soj3-sF2bvQWIsX7yAHNa5fHIwFz80=" height ="60" width="70" /></button>
+
 </body> 
         <div >
-          <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >About</a>
+          <body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Academics</a>
+  <a href="#">About Us</a>
+  <a href="#">Research And Inovation</a>
+  <a href="#">Libraries</a>
+  <a href="#">Libraries</a>
+  <a href="#">University Life</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+          <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black" >Home</a>
           <a href="#games" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black"> Latest News</a>
-          <a href="#shop" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">EXTRACURRICULAR ACTIVITIES</a>
+          <a href="#shop" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Extracurricular Activities</a>
           <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Events</a>
           <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-black">Contact</a>
         </div>
     
-      </div>
 
-      <!-- Navbar on small screens -->
-      <div id="navDemo" class="w3-bar-block  w3-hide w3-hide-large w3-hide-medium w3-large">
-        <a href="#about" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">About</a>
-        <a href="#games" class="w3-bar-item w3-button w3-padding-large"onclick="myFunction()">Latest News</a>
-        <a href="#shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Extracurricular Activities</a>
-        <a href="#events" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Events</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
-      </div>
     </div>
   </header>
       <section >
          <div class="hero" id="about">
            <div class="hero-description">
              <div class="hero-text">
-              <h1 style="text-align:center" class="hero-title">Step in the bright direction </h1>
+              <h2 style="text-align:center" class="hero-title">DPS GBN University </h2>
               <p>
                 “Colleges are places where pebbles are polished and diamonds are dimmed.” ~ Robert Green Ingersoll
               </p>
@@ -173,7 +190,7 @@
           
 
           <div class="event-text">
-            <h2  class="badge" style=" background-color: orange; color:#000015 ;padding:10px"> Events | Sunday February 6 </h2>
+            <h2  class="badge" style=" background-color: orange; color:#000015 ;padding:10px"> Events | Sunday July 31 </h2>
              <h1 class="event-title">University Organises Freshers Society Fair.</h1>
   
              
@@ -194,7 +211,7 @@
                 
           </div>
           <div class="event-image">
-            <img src="img/king-lip-mp295uolfDs-unsplash-removebg-preview.png" alt="erik-mclean"/>
+            <img src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/1177464/Society-Fair-4-_2_.0.jpg" />
           </div>
           
         </div>
@@ -228,16 +245,5 @@
       </main>
       </div>
       
-  <script>
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else { 
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-    </script>
 </body>
 </html>
