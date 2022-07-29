@@ -1,0 +1,149 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Courses</title>
+</head>
+<body>
+
+<style>
+.button {
+  background-color: #12192c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+</style>  
+<a class="button" href="index.html">Go Back</a>
+  <header style="position: "relative"; align="center"">
+<button type="button"> <img src="https://seupload.com/cache/plugins/filepreviewer/63841/a11bb98f92b9a1c6fff3ef835df9d8f42a135cd5b2e98c02faf1c0eff2a9f826/1100x800_cropped.jpg" height ="125" width="400" align="center-top" /> </button>
+  </header>
+      <section >
+         <div class="hero" id="about">
+           <div class="hero-description">
+             <div class="hero-text">
+              <h2 class="hero-title">DPS GBN University <br> Courses Offered By Us 
+              </h2>
+              <h4>
+              </h4>
+              <span class="w3-text-white social" style="margin-top:050px">
+                <p >Follow us on Social media</p>
+                <div class="w3-margin-top">
+             <a href="#">  <i class="fa fa-facebook-official w3-hover-opacity icons" ></i></a> 
+             <a href="#"><i class="fa fa-instagram w3-hover-opacity icons" ></i></a> 
+             <a href="#"><i class="fa fa-snapchat w3-hover-opacity icons"></i></a>  
+             <a href="#"><i class="fa fa-pinterest-p w3-hover-opacity icons" ></i></a>  
+             <a href="#"><i class="fa fa-twitter w3-hover-opacity icons"></i></a>  
+             <a href="#"><i class="fa fa-linkedin w3-hover-opacity icons"></i></a>  
+             </div>
+              </span>
+             </div>
+           </div>
+         </div>
+      </section>        
+        </div>
+        <div class="store" id="shop">
+         <h2 class="title">Courses</h2>
+        
+        <div class="game-store">
+
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://image.shutterstock.com/shutterstock/photos/312491207/display_1500/stock-photo-bba-graduation-bachelor-of-business-administration-312491207.jpg"/>
+            </div>
+            <div class="store-text-description">
+             <h4>BBA</h4>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://cdn.mos.cms.futurecdn.net/HFUAjfbamNhbM8dsNSQW3D.jpg"/>
+            </div>
+            <div class="store-text-description">
+              <h4>Engineering.</h4>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://cf.ltkcdn.net/fashion-history/images/std/169252-425x282r1-fashion-designer-sketch-of-dress.jpg"/>
+            </div>
+            <div class="store-text-description">
+              <h4>Fashion/Interior/Web Design.</h4>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://m.media-amazon.com/images/I/61YMOvbNuVL._SL1500_.jpg" alt="wu yi"/>
+            </div>
+            <div class="store-text-description">
+              <h4>Finance-B.Com/CA.</h4>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://medicaldialogues.in/h-upload/2021/12/20/166397-mbbs.webp"/>
+            </div>
+            <div class="store-text-description">
+              <h4>Medical-BDS and MBBS.</h4>
+            </div>
+
+          </div>
+          <div class="game-store-list">
+            <div class="game-image">
+              <img src="https://cdn.digiomg.com/media/2022/06/BJMC-Syllabus.png"/>
+            </div>
+            <div class="store-text-description">
+              <h4>Journalism BJMC.</h4>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+      <div>
+
+      <h2 class="title">Reach out to us</h2>
+      <div class="contact" id="contact" style="padding-bottom: 10px !important;">
+      <div class="contact-list contact-address"  >
+        <h5><span><i class="fa fa-map-marker w3-xlarge w3-text-light-grey"></i></span>Address</h5>
+         <p> Plot-51, Sector 132, Noida, Uttar Pradesh 201301, India </p>
+      </div>
+      <div class="contact-list">
+        <h5><span><i class="fa fa-envelope w3-xlarge w3-text-light-grey"></i></span>Receive weekly update email</h5>
+        <div class="email-contact">
+          <input placeholder="Email"  type="email" style="margin: 8px 0px !important;"/>
+          
+          <button class="w3-btn w3-red w3-round " style="width: 100px; padding:3px 10px !important">Subscribe</button>
+        </div>
+  
+      </div>
+      <div class="contact-list" >
+        <h5><span><i class="fa fa-phone w3-xlarge w3-text-light-grey"></i></span>Phone</h5>
+        <p> +91-981-151-3007 </p>
+        <p> +91-855-547-3635 </p>
+        <p> +91-0120-492-7894 </p>
+      </div>
+
+      </div>
+    </div>
+        
+      </main>
+</body>
+</html>
